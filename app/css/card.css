@@ -22,18 +22,31 @@
     position: relative;
 }
 
-.wrap-card-colors {
+.wrap-card-options {
   position: absolute;
   top: -16px;
   left: 16px;
 }
 
-.card-colors {
+.card-options {
   display: inline-block;
+  box-sizing: border-box;
   width: 32px;
   height: 32px;
   text-indent: -99999px;
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.card_delete {
+  background-color: #FFF;
+  background-image: url(../images/delete.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-options.isActive {
+  border-width: 4px;
 }
