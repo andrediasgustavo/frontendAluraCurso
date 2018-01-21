@@ -1,25 +1,25 @@
+[data-color="first"] {             /* Azul */
+  background-color: #45AAEE;
+}
+
+[data-color="second"] {            /* Vermelho */
+  background-color: #FF1010;
+}
+
+[data-color="third"] {             /* Verde */
+  background-color: #76EF40;
+}
+
+[data-color="fourth"] {            /* Amarelo */
+  background-color: #EBEF40;
+}
+
 .card {
     display: inline-block;
     box-sizing: border-box;
     padding: 16px;
     width: 25%;
     position: relative;
-}
-
-.card_colorFirst {             /* Azul */
-  background-color: #45AAEE;
-}
-
-.card_colorSecond {            /* Vermelho */
-  background-color: #FF1010;
-}
-
-.card_colorThird {             /* Verde */
-  background-color: #76EF40;
-}
-
-.card_colorFourth {            /* Amarelo */
-  background-color: #EBEF40;
 }
 
 .wrap-card-colors {
@@ -36,21 +36,4 @@
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.5);
-}
-
-
-.card-colors_colorFirst {      /* Azul */
-  background-color: #45AAEE;
-}
-
-.card-colors_colorSecond {     /* Vermelho */
-  background-color: #FF1010;
-}
-
-.card-colors_colorThird {      /* Verde */
-  background-color: #76EF40;
-}
-
-.card-colors_colorFourth {     /* Amarelo */
-  background-color: #EBEF40;
 }
