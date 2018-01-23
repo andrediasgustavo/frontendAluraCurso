@@ -1,0 +1,26 @@
+.newCard {
+  background-color: #C5C5C5;
+  padding: 24px 127px;
+  margin-bottom: 40px;
+}
+
+.newCard-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.newCard-action {
+  font-size: 16px;
+  width: 84px;
+  height: 34px;
+  background-color: #8272C7;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+}
