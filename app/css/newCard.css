@@ -11,7 +11,12 @@
   width: 560px;
   height: 24px;
   padding: 10px;
-  margin-bottom: 20px;
+  transition: height 0.2s linear;
+}
+
+.newCard-content:focus {
+  height: 130px;
+  border: 2px solid #666;
 }
 
 .newCard-action {
@@ -23,4 +28,5 @@
   margin-right: auto;
   display: block;
   cursor: pointer;
+  margin-top: 20px;
 }
